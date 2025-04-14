@@ -11,7 +11,6 @@ permalink: /contact/
 
 {% comment %}
 {% endcomment %}
-{% include contact-form.html %}
+<p>Contact form coming soon!</p>
 
-<script defer src="{{ '/scripts/form-validate.js' | relative_url }}" type="text/javascript"></script>
 
