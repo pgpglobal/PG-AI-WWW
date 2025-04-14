@@ -54,14 +54,18 @@ The Personal Genome Project, initiated in 2005, is a vision and coalition of pro
       </p>
 
       <ul>
-        {% assign sorted = site.projects | sort: 'order' %}
-        {% for project in sorted %}
-          <li>
-            <h3>{{ project.title }} ({{ project.locale }})</h3>
-            <p>{{ project.description }}</p>
-            <div><button class="btn btn-default"><a href="{{ project.link }}">Go to the {{ project.title }} website {{ project.language }}</a></button></div>
-          </li>
-        {% endfor %}
+	{% if site.projects %}
+    		{% assign sorted = site.projects | sort: 'order' %}
+    		{% for project in sorted %}
+      			<li>
+        			<h3>{{ project.title }} ({{ project.locale }})</h3>
+        			<p>{{ project.description }}</p>
+        			<div><button class="btn btn-default"><a href="{{ project.link }}">Go to the {{ project.title }} website {{ project.language }}</a></button></div>
+      			</li>
+    		{% endfor %}
+  	{% else %}
+    		<li><p>No international projects available.</p></li>
+  	{% endif %}
       </ul>
     </div>
 
