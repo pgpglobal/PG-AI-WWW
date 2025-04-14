@@ -1,0 +1,33 @@
+---
+layout: blog
+title: Archives by Year
+class: archive year
+# Year Archives Page Template
+---
+
+<section class="entries">
+  {% assign pageYear = page.year %}
+  <h2 class="archive-title">Posts from {{ pageYear }}</h2>
+  <ul class="entry-list">
+    {%- for post in site.posts -%}
+      {%- if post.hidden -%}{%- continue -%}{%- endif -%}
+      {%- capture postYear -%} {{ post.date | date: '%Y' }} {%- endcapture -%}
+      {% if postYear == pageYear %}
+      <li>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          {% comment %}
+          <span class="comments_number">0</span>
+          {% endcomment %}
+          <time class="archdate">{{ post.date | date: "%b %-d, %Y" }}</time>
+          <span class="category-entry-title">{{ post.title | escape }}</span>
+          {% comment %}
+          <span class="category-entry-author">{{ post.author | escape }}</span>
+          {% endcomment %}
+        </a>
+      </li>
+      {% endif %}
+
+    {%- endfor -%}
+  </ul>
+  <div class="dotted-border-img"></div>
+</section>
