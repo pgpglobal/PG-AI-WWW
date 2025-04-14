@@ -6,7 +6,7 @@ title: "Personal Genome Project: Global Network | Blog"
 <!DOCTYPE html>
 <html lang="en">
 
-{%- include_cached head.html title=page.title -%}
+{%- include head.html title=page.title -%}
 
 {% if page.title == "Blog" or page.title == "blog" %}
 	<body class="body-blog body-{{ page.class }}">
@@ -22,7 +22,7 @@ title: "Personal Genome Project: Global Network | Blog"
 {% endif %}
 
 	<header class="site-header">
-		{%- include_cached nav.html -%}
+		{%- include nav.html -%}
 	</header>
 	<div class="blog-wrapper wrapper">
 
@@ -47,7 +47,7 @@ title: "Personal Genome Project: Global Network | Blog"
 			</main>
 
 				<aside class="sidebar">
-					{%- include_cached sidebar.html -%}
+					{%- include sidebar.html -%}
 					{%- comment -%}
 					{%- endcomment -%}
 
@@ -56,7 +56,7 @@ title: "Personal Genome Project: Global Network | Blog"
 
 		</div>
 
-	{%- include_cached footer.html -%}
+	{%- include footer.html -%}
 </body>
 
 </html>
