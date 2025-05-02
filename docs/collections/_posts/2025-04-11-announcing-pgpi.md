@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The world’s most important biomedical knowledge in less than one gram
+title: The world’s biomedical knowledge in less than a gram
 date: 2025-04-11 19:18:54 -04:00
 type: post
 hidden: true
@@ -16,8 +16,7 @@ author:
 permalink: "/2025/04/11/announcing-pgpi/"
 ---
 
-Imagine having the collective knowledge of biomedical science not just at your
-fingertips, but stored in a chip the size of your fingernail!
+Imagine the collective knowledge of biomedical science in a few chips weighing less than a gram!
 
 <iframe class="alignleft" width="315" height="560"
 src="https://www.youtube.com/embed/aeNOBV-ZVaw"
@@ -25,9 +24,9 @@ title="YouTube video player"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 allowfullscreen></iframe>
-<a href="{{ site.baseurl }}/assets/images/PGPiHgC+.jpeg?w=300"><img class="alignnone wp-image-1658 size-large" src="{{ site.baseurl }}/assets/images/hx100g-PGPiHgC+.jpeg?w=300" alt="unnamed" width="300"  /></a>
-<a href="{{ site.baseurl }}/assets/images/hx100g-PGPiHgC+.jpeg?w=300"><img class="alignnone wp-image-1658 size-large" src="{{ site.baseurl }}/assets/images/hx100g-V3-PGPiHgC+.jpeg?w=300" alt="unnamed" width="300"  /></a>
-<a href="{{ site.baseurl }}/assets/images/hx100g-V3-PGPiHgC+.jpeg?w=300"><img class="alignnone wp-image-1658 size-large" src="{{ site.baseurl }}/assets/images/hx100g-PGPiHgC+.jpeg?w=300" alt="unnamed" width="300" /></a>
+<a href="{{ site.baseurl }}/assets/images/PGPiHgC+.jpeg?w=280"><img class="alignnone wp-image-1658 size-large" src="{{ site.baseurl }}/assets/images/hx100g-PGPiHgC+.jpeg?w=280" alt="unnamed" width="280"  /></a>
+<a href="{{ site.baseurl }}/assets/images/hx100g-PGPiHgC+.jpeg?w=280"><img class="alignnone wp-image-1658 size-large" src="{{ site.baseurl }}/assets/images/hx100g-V3-PGPiHgC+.jpeg?w=280" alt="unnamed" width="280"  /></a>
+<a href="{{ site.baseurl }}/assets/images/hx100g-V3-PGPiHgC+.jpeg?w=280"><img class="alignnone wp-image-1658 size-large" src="{{ site.baseurl }}/assets/images/hx100g-PGPiHgC+.jpeg?w=280" alt="unnamed" width="280" /></a>
 A few of us, at the Personal Genome Project informatics (PGPi) initiative, have launched the PGP incubator. We are assembling a distribution of relevant AI models, well-consented data & cells, tools & workflows, as well, as learning materials to accelerate precision health and (pre-clinical) biomedical AI.  In addition, the incubator is a distributed network of physical computing infrastructure used to test components included in the distribution, such as validating genomics workflows or benchmarking AI models.
 
 To help hatch this network, PGPincubator is running a private network of **“PGPi *h-grams.”** An h-gram is 1-4 microSD cards (3-4 weigh about a gram!) such that each microSD is self-contained and bootable on compatible, commodity PC hardware.  The operating system (Ubuntu) is pre-configured to act as a server suitable for the lab, office or home-lab and is accessed by other devices through a browser. H-gram microSDs can be run immediately or put on the shelf and booted a decade from now.    
