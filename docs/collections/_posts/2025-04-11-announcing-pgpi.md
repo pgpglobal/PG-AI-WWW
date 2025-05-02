@@ -19,65 +19,42 @@ permalink: "/2025/04/11/announcing-pgpi/"
 Imagine having the collective knowledge of biomedical science not just at your
 fingertips, but stored in a chip the size of your fingernail!
 
-<iframe class="aligncenter" width="315" height="560"
+<iframe class="alignleft" width="315" height="560"
 src="https://www.youtube.com/embed/aeNOBV-ZVaw"
 title="YouTube video player"
 frameborder="0"
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-allowfullscreen></iframe>
+allowfullscreen><a href="{{ site.baseurl }}/assets/images/unnamed.png?w=660"><img class="alignnone wp-image-1658 size-large" src="{{ site.baseurl }}/assets/images/unnamed.png?w=660" alt="unnamed" width="660" height="283" /></a></iframe>
 
-Today we are introducing the **PGPi distribution**, a revolutionary new Linux
-distribution that combines cutting-edge bioinformatics tools, AI models, and
-educational resources into one easy-to-use platform.  The PGPi distribution is
-a resource for education, validation and benchmarking in preclinical biomedical
-research.  Built to be collaborative from the ground up, PGPi is a community
-effort which everyone is welcome to use and contribute.
+A few of us, at the Personal Genome Project informatics (PGPi) initiative, have launched the PGP incubator. We are assembling a distribution of relevant AI models, well-consented data & cells, tools & workflows, as well, as learning materials to accelerate precision health and (pre-clinical) biomedical AI.  In addition, the incubator is a distributed network of physical computing infrastructure used to test components included in the distribution, such as validating genomics workflows or benchmarking AI models.
 
-The PGPi distribution is not merely a collection of resources. It is a
-full-fledged, self-contained _bootable_ system that runs on suitable commodity
-hardware. This means that PGPi will enable you to easily spin up storage and
-compute servers for your home, office, school, or lab.  It comes complete with
-pre-loaded drivers for consumer GPUs to accelerate scientific analysis as well
-as running the latest large language models.  You want to talk to your genome?
-We’ve got you covered!
+To help hatch this network, PGPincubator is running a private network of **“PGPi *h-grams.”** An h-gram is 1-4 microSD cards (3-4 weigh about a gram!) such that each microSD is self-contained and bootable on compatible, commodity PC hardware.  The operating system (Ubuntu) is pre-configured to act as a server suitable for the lab, office or home-lab and is accessed by other devices through a browser. H-gram microSDs can be run immediately or put on the shelf and booted a decade from now.    
 
-The PGPi distribution is pre-loaded with curated data sets from the [Personal
+The PGPincubator data and software distribution pre-loaded on the h-gram will be updated on a 6 month release schedule, inspired by Linux distribution releases. With both software and data sets distributed in stable, versioned releases, it becomes far easier for researchers to precisely identify both software and data used in their work, for others to reproduce that work, and for students to study that work, while ensuring that validation and benchmarking methods are done fairly against a common baseline. 
+
+Our first H-grams are pre-loaded with curated data sets from the [Personal
 Genome Project](https://www.personalgenomes.org/) (PGP) and [Genome in a
 Bottle](https://www.nist.gov/programs-projects/genome-bottle), as well as other
 openly licensed data sets, workflows, textbooks, tutorials, and tools, so you
 can start learning about human genetics or doing bioinformatics research
-immediately without the friction of spending hours or days downloading data or
-hunting down software package versions.
+immediately without the friction of spending hours, days or even weeks learning about GPU kernel drivers, downloading relevant data or
+hunting down software package versions.  
 
-But here's the coolest part: You can collaborate with other people running the
+You want to talk to your genome? We’ve got you covered!
+
+Intended to be collaborative from the ground up, the PGP incubator is a community
+effort where everyone is welcome to use and contribute.  But here's the coolest part: You can collaborate with other people running the
 PGPi distribution over a secure network.  Participants in the PGPi network will
-be able to contribute and share their computing power with others who want to
-support open science.  Think of it like a global brain for bioinformatics
-research!
+be able to contribute and share their computing power with each other.  
 
-Like a small and hardy grain of seed, each PGPi distribution installer is a
-_physical object_ that contains vast amounts of meaningful data and knowledge,
+Like small and hardy grains of seed, each PGPi h-gram PGPi is a
+_physical object_ that contains the world's biomedical knowledge,
 ready to be activated and realize its potential for growth, when you put it to
-the suitable hardware environment and boot it – to let it become embodied.  And
-believe us, we have cultivated this seed so that it is well-adapted for
-commodity hardware that is widely available.  Furthermore, with your feedback
-and participation, PGPi will continue to adapt for future challenges.
+the suitable hardware environment and boot it – to let it become embodied.  Thanks to the hard work of the Debian and Ubuntu projects, h-grams are well-adapted for
+widely available commodity hardware. Furthermore, with the help of a community driven development process, we can aim for consensus on what biomedical knowledge every h-gram must contain. 
 
-Whether you're a student working on an open data set or a researcher looking to
-validate and benchmark new methods, PGPi has got your back, and you can help
-PGPi grow.
-
-Why are we doing this?  Well, the world’s medical biomedical knowledge is kept
-in many silos.  Some reasons for these silos are good (patient privacy), some
-mundane (data is generated in many places and is hard to integrate), and some
-reflect economic necessity.  Many groups, including racial and ethnic
-minorities, poor countries of the global south, and those suffering with rare
-diseases worldwide, are poorly served by the silos of mainstream medicine. We
-believe that breaking down the silos, removing barriers to learning, and
-fostering collaboration in the best practice of open science helps everyone,
-but the greatest benefits go to those with the most unmet needs.  Thus
-making the world’s most important biomedical knowledge easier to access will
-provide enormous leverage to improve health and wellbeing in these communities.
+Whether you're a citizen scientist, a student just starting out or an experienced biomedical researcher looking to
+validate and benchmark new methods, we hope this work is so useful to you you'll want to contribute to it yourself. 
 
 This probably all sounds impossible, right?  Well, it’s true, impossible things
 are very hard, and if we were starting from scratch, you would probably be
@@ -88,8 +65,7 @@ Language](https://www.commonwl.org/), [Ubuntu](https://ubuntu.com),
 open science efforts. Most importantly, none of this could have happened
 without the participants of the
 <abbr title="Personal Genome Project">PGP</abbr> who have been generously
-contributing to the body of open genomic data. As we celebrate the 20th
-anniversary of the PGP this year, we believe that our time is now!
+contributing their well-consented biomedical data and cells to the public domain. As we celebrate the 20th
+anniversary of the PGP, we believe that our time is now!
 
-The first PGPi release is coming soon.  Want to be the first to know about it?
-Click here to subscribe!
+The fist h-grams are in testing.  Want to try one for yourself or help shape the first release? Join the bi-weekly video call or ping us about attending in person if the MIT campus in Cambridge, Massachusetts is convenient for you. 
